@@ -117,10 +117,10 @@ runs:
           :---:
 
           :rocket: Deployed preview to
-          https://${{ env.pagesurl }}/${{ env.targetdir }}/
+          https://uclhal.org/${{ env.targetdir }}/
 
           on branch [`${{ inputs.preview-branch }}`](\
-          ${{ github.server_url }}/${{ github.repository }}\
+          uclhal.org/${{ github.repository }}\
           /tree/${{ inputs.preview-branch }})
           at ${{ env.datetime }}
           "
